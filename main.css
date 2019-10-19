@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+ #container {
+  display: flex;
+  flex-direction:row ;
+}
+.menu-box {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 50%;
+  height: 100%;
+}
+#menutext{
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+#add-btn {
+  background-color: lightgray;
+}
+.btn {
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #79c2ce;
+  padding: 10px;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border: 0;
+  /* outline: 0; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: antiquewhite;
+  font-weight: bold;
+  color: sandybrown;
+}
+#btn-box {
+  margin: auto;
+}
+.order-box {
+ border: 1px solid gray;
+ border-left: 0;
+ width: 50%;
+}
+.carts {
+  border-bottom:1px solid gray;
+  padding: 10px;
+  position: relative;
+  height: 80%;
+}
+.items {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+}
+.order {
+  list-style: none;
+  text-align: center;
+  font-size: 1.5em;
+}
+.order-list {
+  padding: 0;
+}
+#result {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 100%;
+  height: 20%
+}
